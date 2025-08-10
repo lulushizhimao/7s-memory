@@ -1,0 +1,486 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>OC档案 - 哥特幻想</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 移动端菜单按钮 -->
+    <div class="menu-toggle" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    
+    <div class="container">
+        <!-- 左侧导航栏 -->
+        <nav class="sidebar">
+            <div class="nav-header">
+                <h1 class="nav-title">CODEX</h1>
+                <div class="nav-subtitle">Personae Arcanum</div>
+            </div>
+            
+            <ul class="nav-menu">
+                <li class="nav-item active" data-page="home">
+                    <span class="nav-icon">⚜</span>
+                    <span class="nav-text">首页</span>
+                    <span class="nav-latin">Domus</span>
+                </li>
+                <li class="nav-item" data-page="basic">
+                    <span class="nav-icon">†</span>
+                    <span class="nav-text">基本信息</span>
+                    <span class="nav-latin">Informatio</span>
+                </li>
+                <li class="nav-item" data-page="profile">
+                    <span class="nav-icon">§</span>
+                    <span class="nav-text">档案</span>
+                    <span class="nav-latin">Acta</span>
+                </li>
+                <li class="nav-item" data-page="relations">
+                    <span class="nav-icon">∞</span>
+                    <span class="nav-text">关系图</span>
+                    <span class="nav-latin">Nexus</span>
+                </li>
+                <li class="nav-item" data-page="gallery">
+                    <span class="nav-icon">♱</span>
+                    <span class="nav-text">画廊</span>
+                    <span class="nav-latin">Galeria</span>
+                </li>
+                <li class="nav-item" data-page="worldview">
+                    <span class="nav-icon">Ω</span>
+                    <span class="nav-text">世界观</span>
+                    <span class="nav-latin">Mundus</span>
+                </li>
+            </ul>
+            
+            <div class="nav-footer">
+                <div class="ornament">❦</div>
+                <p class="latin-quote">"Veritas vos liberabit"</p>
+            </div>
+        </nav>
+
+        <!-- 右侧内容区 -->
+        <main class="content">
+            <!-- 首页 -->
+            <section id="home" class="page active">
+                <div class="page-header">
+                <div class="character-portrait">
+                        <div class="portrait-frame">
+                            <img src="images/design.png" alt="013角色立绘" class="color-image" style="width: 100%; height: 100%; object-fit: cover; filter: grayscale(0%) !important; -webkit-filter: grayscale(0%) !important; transform: translate3d(0, 0, 0); will-change: filter; isolation: isolate; mix-blend-mode: normal;">
+                        </div>
+                    </div>
+                    <div class="character-intro">
+                        <h1 class="character-name">013</h1>
+                        <p class="character-slogan">"引路人"<br><em>穿梭于游戏与现实之间</em></p>
+                        <div class="intro-ornament">❦ ❦ ❦</div>
+                    </div>
+                </div>
+                
+                <div class="welcome-text">
+                    <p class="gothic-text">
+                        欢迎来到这个秘密档案室，这里记录着一个穿梭于游戏与现实之间的引路人。
+                        她手提提灯，带领玩家穿过黑暗与光明，而她自己，也在寻找属于自己的真相...
+                    </p>
+                </div>
+            </section>
+
+            <!-- 基本信息页 -->
+            <section id="basic" class="page">
+                <div class="page-title">
+                    <h2>基本信息</h2>
+                    <div class="title-ornament">❦</div>
+                </div>
+                
+                <div class="info-cards">
+                    <div class="info-card">
+                        <div class="card-icon">I</div>
+                        <div class="card-content">
+                            <h3>姓名</h3>
+                            <p>013</p>
+                            <span class="card-subtitle">无限流游戏引路人</span>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="card-icon">II</div>
+                        <div class="card-content">
+                            <h3>年龄</h3>
+                            <p>外表16岁左右</p>
+                            <span class="card-subtitle">真实年龄未知</span>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="card-icon">III</div>
+                        <div class="card-content">
+                            <h3>性别</h3>
+                            <p>女性</p>
+                            <span class="card-subtitle">Femina</span>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="card-icon">IV</div>
+                        <div class="card-content">
+                            <h3>种族</h3>
+                            <p>九尾幽火狐</p>
+                            <span class="card-subtitle">通常以无尾形态示人</span>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="card-icon">V</div>
+                        <div class="card-content">
+                            <h3>标签</h3>
+                            <p>引路人 | 穿梭者 | 觉醒者</p>
+                            <span class="card-subtitle">温柔 | 沉静 | 淡然</span>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="card-icon">VI</div>
+                        <div class="card-content">
+                            <h3>职业</h3>
+                            <p>游戏引路人NPC</p>
+                            <span class="card-subtitle">负责带领玩家进出副本</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 详细档案页 -->
+            <section id="profile" class="page">
+                <div class="page-title">
+                    <h2>详细档案</h2>
+                    <div class="title-ornament">❦</div>
+                </div>
+                
+                <div class="profile-sections">
+                    <div class="profile-section">
+                        <h3 class="section-title">背景故事 <span class="latin">Historia</span></h3>
+                        <div class="story-content">
+                            <p>013是一个无限流类全息游戏世界中的引路人NPC，负责带领玩家进出副本、解释规则。由于她负责的副本大多在黑夜进行，所以总会手提一盏提灯，带着玩家穿过黑暗与光明。</p>
+                            <p>在一次任务中，一名玩家在游戏副本中死亡。就在系统回收数据的瞬间，游戏意外发生了bug，那位玩家的系统脱离主控并掉落。副本结束后，013在整理记录时发现了这块系统核心，并通过其中的零碎数据，意识到自己只是一个NPC、一切都只是游戏。她没有立即销毁，而是将其交给了一位高科技副本里的NPC朋友，请求复制出一个专属于她的系统。自那之后，013获得了在现实世界与游戏世界自由穿梭的能力。</p>
+                        </div>
+                    </div>
+                    
+                    <div class="profile-section">
+                        <h3 class="section-title">性格特质 <span class="latin">Natura</span></h3>
+                        <div class="traits-grid">
+                            <div class="trait-item">
+                                <span class="trait-name">温柔</span>
+                                <div class="trait-bar"><div class="trait-fill" style="width: 95%"></div></div>
+                            </div>
+                            <div class="trait-item">
+                                <span class="trait-name">沉静</span>
+                                <div class="trait-bar"><div class="trait-fill" style="width: 90%"></div></div>
+                            </div>
+                            <div class="trait-item">
+                                <span class="trait-name">淡然</span>
+                                <div class="trait-bar"><div class="trait-fill" style="width: 85%"></div></div>
+                            </div>
+                            <div class="trait-item">
+                                <span class="trait-name">好奇</span>
+                                <div class="trait-bar"><div class="trait-fill" style="width: 75%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="profile-section">
+                        <h3 class="section-title">语录 <span class="latin">Dicta</span></h3>
+                        <div class="quotes">
+                            <blockquote class="quote-item">
+                                <p>"请跟紧我的提灯，不要迷失在黑暗中。"</p>
+                                <cite>— 引导玩家进入副本时</cite>
+                            </blockquote>
+                            <blockquote class="quote-item">
+                                <p>"规则是为了保护你，而不是限制你。"</p>
+                                <cite>— 向新玩家解释游戏规则时</cite>
+                            </blockquote>
+                            <blockquote class="quote-item">
+                                <p>"我们都是某个世界的数据，但这不代表我们的存在没有意义。"</p>
+                                <cite>— 发现自己真实身份后的感悟</cite>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 关系图页 -->
+            <section id="relations" class="page">
+                <div class="page-title">
+                    <h2>关系图谱</h2>
+                    <div class="title-ornament">❦</div>
+                </div>
+                
+                <div class="relations-container">
+                    <div class="relation-node central">
+                        <div class="node-avatar">A</div>
+                        <div class="node-name">013</div>
+                    </div>
+                    
+                    <div class="relation-node ally" style="top: 20%; left: 20%;">
+                        <div class="node-avatar">M</div>
+                        <div class="node-name">高科技NPC</div>
+                        <div class="relation-line ally-line"></div>
+                        <div class="relation-label">朋友</div>
+                    </div>
+                    
+                    <div class="relation-node enemy" style="top: 20%; right: 20%;">
+                        <div class="node-avatar">V</div>
+                        <div class="node-name">AI主脑</div>
+                        <div class="relation-line enemy-line"></div>
+                        <div class="relation-label">监视者</div>
+                    </div>
+                    
+                    <div class="relation-node neutral" style="bottom: 20%; left: 30%;">
+                        <div class="node-avatar">E</div>
+                        <div class="node-name">玩家们</div>
+                        <div class="relation-line neutral-line"></div>
+                        <div class="relation-label">引导对象</div>
+                    </div>
+                    
+                    <div class="relation-node mysterious" style="bottom: 20%; right: 30%;">
+                        <div class="node-avatar">?</div>
+                        <div class="node-name">世界意识</div>
+                        <div class="relation-line mysterious-line"></div>
+                        <div class="relation-label">创造者</div>
+                    </div>
+                </div>
+                
+                <div class="relations-legend">
+                    <h3>关系说明</h3>
+                    <div class="legend-items">
+                        <div class="legend-item">
+                            <span class="legend-color ally"></span>
+                            <span>盟友/导师</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-color enemy"></span>
+                            <span>敌对/竞争</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-color neutral"></span>
+                            <span>中性/同僚</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-color mysterious"></span>
+                            <span>神秘/未知</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 画廊页 -->
+            <section id="gallery" class="page">
+                <div class="page-title">
+                    <h2>画廊</h2>
+                    <div class="title-ornament">❦</div>
+                </div>
+                
+                <!-- 卡片包列表 -->
+                <div id="gallery-packages" class="gallery-packages">
+                    <div class="gallery-grid">
+                        <div class="gallery-package" data-package="portraits">
+                            <div class="package-icon">I</div>
+                            <h3 class="package-title">肖像集</h3>
+                            <p class="package-description">角色的各种肖像画作</p>
+                        </div>
+                        
+                        <div class="gallery-package" data-package="fullbody">
+                            <div class="package-icon">II</div>
+                            <h3 class="package-title">全身像</h3>
+                            <p class="package-description">角色的全身立绘</p>
+                        </div>
+                        
+                        <div class="gallery-package" data-package="designs">
+                            <div class="package-icon">III</div>
+                            <h3 class="package-title">设计稿</h3>
+                            <p class="package-description">角色的概念设计</p>
+                        </div>
+                        
+                        <div class="gallery-package" data-package="backgrounds">
+                            <div class="package-icon">IV</div>
+                            <h3 class="package-title">背景</h3>
+                            <p class="package-description">角色的世界背景</p>
+                        </div>
+                        
+                        <div class="gallery-package" data-package="ornaments">
+                            <div class="package-icon">V</div>
+                            <h3 class="package-title">装饰物</h3>
+                            <p class="package-description">与角色相关的装饰元素</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 卡片内容区域 -->
+                <div id="gallery-cards" class="gallery-cards" style="display: none;">
+                    <div class="gallery-header">
+                        <button class="back-button" id="backToPackages">
+                            <span class="back-icon">←</span> 返回卡片包
+                        </button>
+                        <h3 class="gallery-cards-title" id="currentPackageTitle">卡片包标题</h3>
+                    </div>
+                    
+                    <!-- 肖像集 -->
+                    <div id="portraits-cards" class="gallery-cards-content" style="display: none;">
+                        <div class="gallery-grid">
+                            <div class="gallery-item">
+                                <div class="image-container">
+                                    <img src="images/portrait.jpg" alt="角色肖像" style="filter: grayscale(0%) !important; -webkit-filter: grayscale(0%) !important; transform: translate3d(0, 0, 0); will-change: filter; isolation: isolate; mix-blend-mode: normal;">
+                                </div>
+                                <p class="image-caption">典雅肖像</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 全身像 -->
+                    <div id="fullbody-cards" class="gallery-cards-content" style="display: none;">
+                        <div class="gallery-grid">
+                            <div class="gallery-item">
+                                <div class="image-container">
+                                    <img src="images/full-body.jpg" alt="全身立绘" style="filter: grayscale(0%) !important; -webkit-filter: grayscale(0%) !important; transform: translate3d(0, 0, 0); will-change: filter; isolation: isolate; mix-blend-mode: normal;">
+                                </div>
+                                <p class="image-caption">正式装束</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 设计稿 -->
+                    <div id="designs-cards" class="gallery-cards-content" style="display: none;">
+                        <div class="gallery-grid">
+                            <div class="gallery-item">
+                                <div class="image-container">
+                                    <img src="images/design.png" alt="角色设计" style="filter: grayscale(0%) !important; -webkit-filter: grayscale(0%) !important; transform: translate3d(0, 0, 0); will-change: filter; isolation: isolate; mix-blend-mode: normal;">
+                                </div>
+                                <p class="image-caption">初期概念设计</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 背景 -->
+                    <div id="backgrounds-cards" class="gallery-cards-content" style="display: none;">
+                        <div class="gallery-grid">
+                            <div class="gallery-item">
+                                <div class="image-container">
+                                    <img src="images/background.jpg" alt="背景图片" style="filter: grayscale(0%) !important; -webkit-filter: grayscale(0%) !important; transform: translate3d(0, 0, 0); will-change: filter; isolation: isolate; mix-blend-mode: normal;">
+                                </div>
+                                <p class="image-caption">哥特式图书馆</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 装饰物 -->
+                    <div id="ornaments-cards" class="gallery-cards-content" style="display: none;">
+                        <div class="gallery-grid">
+                            <div class="gallery-item">
+                                <div class="image-container">
+                                    <img src="images/ornament.png" alt="装饰元素" style="filter: grayscale(0%) !important; -webkit-filter: grayscale(0%) !important; transform: translate3d(0, 0, 0); will-change: filter; isolation: isolate; mix-blend-mode: normal;">
+                                </div>
+                                <p class="image-caption">古老符文</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- 世界观页 -->
+            <section id="worldview" class="page">
+                <div class="page-title">
+                    <h2>世界观</h2>
+                    <div class="title-ornament">❦</div>
+                </div>
+                
+                <div class="world-content">
+                    <div class="world-section">
+                        <h3>时代背景 <span class="latin">Tempus</span></h3>
+                        <p>故事发生在未来世界，一款名为"无限流"的全息游戏风靡全球。这款游戏的最大卖点是NPC的高自由度与真实感，玩家与NPC的互动有不确定性，每一段对话都没有固定程序，玩家甚至会被NPC所欺骗。在宣传中，官方甚至不否认："你遇到的，或许是另一个真实。"</p>
+                    </div>
+                    
+                    <div class="world-section">
+                        <h3>地理环境 <span class="latin">Locus</span></h3>
+                        <div class="location-grid">
+                            <div class="location-card">
+                                <h4>游戏世界</h4>
+                                <p>013作为引路人NPC的工作场所，由各种不同主题的副本组成。</p>
+                            </div>
+                            <div class="location-card">
+                                <h4>现实世界</h4>
+                                <p>013获得特殊系统后能够自由穿梭的地方，充满了新奇的事物。</p>
+                            </div>
+                            <div class="location-card">
+                                <h4>黑夜副本</h4>
+                                <p>013主要负责的副本类型，她会手提提灯引导玩家前行。</p>
+                            </div>
+                            <div class="location-card">
+                                <h4>数据空间</h4>
+                                <p>游戏系统的核心区域，存储着关于游戏世界真相的秘密。</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="world-section">
+                        <h3>势力派系 <span class="latin">Factiones</span></h3>
+                        <div class="faction-list">
+                            <div class="faction-item">
+                                <h4>「功能性NPC」</h4>
+                                <p>类似013这样的管理部分副本的NPC，不可被攻击</p>
+                            </div>
+                            <div class="faction-item">
+                                <h4>「普通NPC」</h4>
+                                <p>包括怪物、副本boss等可交互角色</p>
+                            </div>
+                            <div class="faction-item">
+                                <h4>「AI主脑」</h4>
+                                <p>游戏系统的核心，监控着游戏世界的一切</p>
+                            </div>
+                            <div class="faction-item">
+                                <h4>「世界意识」</h4>
+                                <p>游戏背后的神秘存在，可能是整个系统的创造者</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+<script>
+// 确保DOM加载完成后执行
+document.addEventListener('DOMContentLoaded', function() {
+    // 获取菜单按钮和侧边栏元素
+    const menuToggle = document.getElementById('menuToggle');
+    const sidebar = document.querySelector('.sidebar');
+    
+    // 添加菜单按钮点击事件
+    if(menuToggle) {
+        menuToggle.addEventListener('click', function() {
+            console.log('菜单按钮被点击');
+            this.classList.toggle('active');
+            sidebar.classList.toggle('active');
+        });
+    } else {
+        console.error('菜单按钮未找到');
+    }
+    
+    // 导航项点击事件
+    const navItems = document.querySelectorAll('.nav-item');
+    navItems.forEach(item => {
+        item.addEventListener('click', function() {
+            // 在移动端自动关闭菜单
+            if (window.innerWidth <= 768) {
+                menuToggle.classList.remove('active');
+                sidebar.classList.remove('active');
+            }
+        });
+    });
+});
+</script>
+<script src="script.js"></script>
+</body>
+</html>
